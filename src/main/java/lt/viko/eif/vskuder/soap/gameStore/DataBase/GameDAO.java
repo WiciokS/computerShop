@@ -70,7 +70,7 @@ public class GameDAO {
     }
     /**
      * Method that gets all the games from the database by category id
-     * @param categoryId category id
+     * @param userId user id
      * @return list of games
      */
     public List<Game> getAllGamesByUserId(int userId) {
@@ -108,8 +108,8 @@ public class GameDAO {
         return games;
     }
     /**
-     * Method that gets all the games from the database by category id
-     * @param categoryId category id
+     * Method that gets all the games from the database by id
+     * @param id game id
      * @return list of games
      */
     public Game getGameById(int id) {
